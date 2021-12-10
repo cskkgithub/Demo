@@ -1,0 +1,31 @@
+install Git on ubuntu os
+sudo su
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:git-core/ppa -y
+sudo apt-get update
+sudo apt-get install git -y
+git --version
+--------------------------------------
+
+install git on centOS/fedors/redhat
+sudo yum update
+sudo yum install git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
