@@ -1,0 +1,45 @@
+install Git on ubuntu os
+sudo su
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:git-core/ppa -y
+sudo apt-get update
+sudo apt-get install git -y
+git --version
+--------------------------------------
+
+install git on centOS/fedors/redhat
+sudo yum update
+sudo yum install git
+-------------------------------------
+mkdir ProjectA ; cd ProjectA
+	git init ( will initialize the empty project if the directory is empty )
+	touch abc.java new.java sample.java ( creates empty files if not exists )
+	vi sample.java (opens the file in editor - enter some text & save it )
+	echo command is also used to enter content in the file 
+	cat sample(to check the contents of the file)
+	git status -- to check changes made
+	git add abc.java new.java sample.java ( adds the files to git staging area so that git can track the changes )
+	git commit -m "any message" ( saves the files to git repository permanently  & genereates a commit id )
+        git remote add origin https://github.com/cskkgithub/sample1.git
+        git push -u origin master
+        rm -rf.git (to remove any git file from the directory. .git file not shown up after this)
+        git log(to see the commits details-commit time and message etc will be shown)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
