@@ -11,6 +11,7 @@ install git on centOS/fedors/redhat
 sudo yum update
 sudo yum install git
 -------------------------------------
+scenario 1: Create Empty Local repository & add some files, modify files then add to git staging area & commit all changes together
 mkdir ProjectA ; cd ProjectA
 	git init ( will initialize the empty project if the directory is empty )
 	touch abc.java new.java sample.java ( creates empty files if not exists )
@@ -24,7 +25,7 @@ mkdir ProjectA ; cd ProjectA
         git push -u origin master
         rm -rf.git (to remove any git file from the directory. .git file not shown up after this)
         git log(to see the commits details-commit time and message etc will be shown)
-
+--------------------------------------------------------------------------------------------------
 
 
 
