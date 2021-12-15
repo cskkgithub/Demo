@@ -26,6 +26,8 @@ mkdir ProjectA ; cd ProjectA
         rm -rf.git (to remove any git file from the directory. .git file not shown up after this)
         git log(to see the commits details-commit time and message etc will be shown)
 --------------------------------------------------------------------------------------------------
+scenario 2: in a git local repository add more files, edit some files, remove somefiles & add to staging area then commit the changes for every change accordingly 
+
 
 
 
